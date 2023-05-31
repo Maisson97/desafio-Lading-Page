@@ -1,0 +1,125 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    max-width: 1440px;
+}
+
+/* CABEÇALHO */
+header{
+    background-color: #303030;
+}
+#cabeçalho{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8%;
+}
+#cabeçalho h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+#cabeçalho h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+
+/* MAIN #INFORMATIVOS */
+#informativo{
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+/* MAIN #CONTEUDO */
+#conteudo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+}
+#conteudo #texto{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+#conteudo img{
+    width: 400px;
+}
+/* FOOTER */
+footer{
+    background: #303030;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+footer form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+footer input{
+    padding-left: 15px;
+    width: 450px;
+    height: 48px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 5%;
+}
+
+
+footer #button{
+    background: #C07212;
+    border-radius: 10px;
+    width: 286px;
+    height: 54px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    position: relative;
+    top: 5%;
+    left: 20.5%;
+}
